@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A17F4DA24E7D02300401265 /* BZPermenantThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A17F4D924E7D02300401265 /* BZPermenantThread.m */; };
 		9A48410824E6A020006C1411 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48410724E6A020006C1411 /* AppDelegate.m */; };
 		9A48410B24E6A020006C1411 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48410A24E6A020006C1411 /* SceneDelegate.m */; };
 		9A48410E24E6A020006C1411 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48410D24E6A020006C1411 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		9A48411924E6A022006C1411 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48411824E6A022006C1411 /* main.m */; };
 		9A48412324E6A022006C1411 /* BZRunLoopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48412224E6A022006C1411 /* BZRunLoopTests.m */; };
 		9A48412E24E6A022006C1411 /* BZRunLoopUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48412D24E6A022006C1411 /* BZRunLoopUITests.m */; };
-		9A48413D24E6A045006C1411 /* BZThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A48413C24E6A045006C1411 /* BZThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A17F4D824E7D02300401265 /* BZPermenantThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZPermenantThread.h; sourceTree = "<group>"; };
+		9A17F4D924E7D02300401265 /* BZPermenantThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZPermenantThread.m; sourceTree = "<group>"; };
 		9A48410324E6A020006C1411 /* BZRunLoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BZRunLoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A48410624E6A020006C1411 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9A48410724E6A020006C1411 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		9A48412924E6A022006C1411 /* BZRunLoopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BZRunLoopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A48412D24E6A022006C1411 /* BZRunLoopUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZRunLoopUITests.m; sourceTree = "<group>"; };
 		9A48412F24E6A022006C1411 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A48413B24E6A045006C1411 /* BZThread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BZThread.h; sourceTree = "<group>"; };
-		9A48413C24E6A045006C1411 /* BZThread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BZThread.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 				9A48411424E6A022006C1411 /* LaunchScreen.storyboard */,
 				9A48411724E6A022006C1411 /* Info.plist */,
 				9A48411824E6A022006C1411 /* main.m */,
-				9A48413B24E6A045006C1411 /* BZThread.h */,
-				9A48413C24E6A045006C1411 /* BZThread.m */,
+				9A17F4D824E7D02300401265 /* BZPermenantThread.h */,
+				9A17F4D924E7D02300401265 /* BZPermenantThread.m */,
 			);
 			path = BZRunLoop;
 			sourceTree = "<group>";
@@ -275,7 +275,7 @@
 				9A48410E24E6A020006C1411 /* ViewController.m in Sources */,
 				9A48410824E6A020006C1411 /* AppDelegate.m in Sources */,
 				9A48411924E6A022006C1411 /* main.m in Sources */,
-				9A48413D24E6A045006C1411 /* BZThread.m in Sources */,
+				9A17F4DA24E7D02300401265 /* BZPermenantThread.m in Sources */,
 				9A48410B24E6A020006C1411 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
